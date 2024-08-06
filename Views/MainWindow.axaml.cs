@@ -1,4 +1,3 @@
-using BatoBatoPick.ViewModels;
 using Avalonia.Controls;
 
 namespace BatoBatoPick.Views
