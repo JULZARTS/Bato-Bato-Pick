@@ -6,7 +6,8 @@
     <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
-	  <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+	<IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract> <!-- include this when publishing a code to an exe fil-->
+	<ApplicationIcon>Assets\BBP.ico</ApplicationIcon> <!-- Add this line when adding a logo, change path -->
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,6 +20,7 @@
 
   <ItemGroup>
     <None Remove="Assets\BatoBatoPick.png" />
+    <None Remove="Assets\BBP.ico" />
     <None Remove="Assets\Questionmark_Inverted.png" />
   </ItemGroup>
 

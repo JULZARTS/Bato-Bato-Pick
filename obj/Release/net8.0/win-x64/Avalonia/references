@@ -1,26 +1,27 @@
-C:\Users\ignac\.nuget\packages\avalonia\11.0.10\ref\net6.0\Avalonia.Base.dll
-C:\Users\ignac\.nuget\packages\avalonia\11.0.10\ref\net6.0\Avalonia.Controls.dll
-C:\Users\ignac\.nuget\packages\avalonia\11.0.10\ref\net6.0\Avalonia.DesignerSupport.dll
-C:\Users\ignac\.nuget\packages\avalonia.desktop\11.0.10\lib\net6.0\Avalonia.Desktop.dll
-C:\Users\ignac\.nuget\packages\avalonia\11.0.10\ref\net6.0\Avalonia.Dialogs.dll
-C:\Users\ignac\.nuget\packages\avalonia\11.0.10\ref\net6.0\Avalonia.dll
-C:\Users\ignac\.nuget\packages\avalonia.fonts.inter\11.0.10\lib\net6.0\Avalonia.Fonts.Inter.dll
-C:\Users\ignac\.nuget\packages\avalonia.freedesktop\11.0.10\lib\net6.0\Avalonia.FreeDesktop.dll
-C:\Users\ignac\.nuget\packages\avalonia\11.0.10\ref\net6.0\Avalonia.Markup.dll
-C:\Users\ignac\.nuget\packages\avalonia\11.0.10\ref\net6.0\Avalonia.Markup.Xaml.dll
-C:\Users\ignac\.nuget\packages\avalonia\11.0.10\ref\net6.0\Avalonia.Metal.dll
-C:\Users\ignac\.nuget\packages\avalonia\11.0.10\ref\net6.0\Avalonia.MicroCom.dll
-C:\Users\ignac\.nuget\packages\avalonia.native\11.0.10\lib\net6.0\Avalonia.Native.dll
-C:\Users\ignac\.nuget\packages\avalonia\11.0.10\ref\net6.0\Avalonia.OpenGL.dll
-C:\Users\ignac\.nuget\packages\avalonia.remote.protocol\11.0.10\lib\net6.0\Avalonia.Remote.Protocol.dll
-C:\Users\ignac\.nuget\packages\avalonia.skia\11.0.10\lib\net6.0\Avalonia.Skia.dll
-C:\Users\ignac\.nuget\packages\avalonia.themes.fluent\11.0.10\lib\net6.0\Avalonia.Themes.Fluent.dll
-C:\Users\ignac\.nuget\packages\avalonia.win32\11.0.10\lib\net6.0\Avalonia.Win32.dll
-C:\Users\ignac\.nuget\packages\avalonia.x11\11.0.10\lib\net6.0\Avalonia.X11.dll
+C:\Users\ignac\.nuget\packages\avalonia\11.1.1\ref\net8.0\Avalonia.Base.dll
+C:\Users\ignac\.nuget\packages\avalonia\11.1.1\ref\net8.0\Avalonia.Controls.dll
+C:\Users\ignac\.nuget\packages\avalonia\11.1.1\ref\net8.0\Avalonia.DesignerSupport.dll
+C:\Users\ignac\.nuget\packages\avalonia.desktop\11.1.1\lib\net8.0\Avalonia.Desktop.dll
+C:\Users\ignac\.nuget\packages\avalonia\11.1.1\ref\net8.0\Avalonia.Dialogs.dll
+C:\Users\ignac\.nuget\packages\avalonia\11.1.1\ref\net8.0\Avalonia.dll
+C:\Users\ignac\.nuget\packages\avalonia.fonts.inter\11.1.1\lib\net8.0\Avalonia.Fonts.Inter.dll
+C:\Users\ignac\.nuget\packages\avalonia.freedesktop\11.1.1\lib\net8.0\Avalonia.FreeDesktop.dll
+C:\Users\ignac\.nuget\packages\avalonia\11.1.1\ref\net8.0\Avalonia.Markup.dll
+C:\Users\ignac\.nuget\packages\avalonia\11.1.1\ref\net8.0\Avalonia.Markup.Xaml.dll
+C:\Users\ignac\.nuget\packages\avalonia\11.1.1\ref\net8.0\Avalonia.Metal.dll
+C:\Users\ignac\.nuget\packages\avalonia\11.1.1\ref\net8.0\Avalonia.MicroCom.dll
+C:\Users\ignac\.nuget\packages\avalonia.native\11.1.1\lib\net8.0\Avalonia.Native.dll
+C:\Users\ignac\.nuget\packages\avalonia\11.1.1\ref\net8.0\Avalonia.OpenGL.dll
+C:\Users\ignac\.nuget\packages\avalonia.remote.protocol\11.1.1\lib\net8.0\Avalonia.Remote.Protocol.dll
+C:\Users\ignac\.nuget\packages\avalonia.skia\11.1.1\lib\net8.0\Avalonia.Skia.dll
+C:\Users\ignac\.nuget\packages\avalonia.themes.fluent\11.1.1\lib\net8.0\Avalonia.Themes.Fluent.dll
+C:\Users\ignac\.nuget\packages\avalonia\11.1.1\ref\net8.0\Avalonia.Vulkan.dll
+C:\Users\ignac\.nuget\packages\avalonia.win32\11.1.1\lib\net8.0\Avalonia.Win32.dll
+C:\Users\ignac\.nuget\packages\avalonia.x11\11.1.1\lib\net8.0\Avalonia.X11.dll
 C:\Users\ignac\.nuget\packages\colortextblock.avalonia\11.0.2\lib\net6.0\ColorTextBlock.Avalonia.dll
-C:\Users\ignac\.nuget\packages\communitytoolkit.mvvm\8.2.1\lib\net6.0\CommunityToolkit.Mvvm.dll
+C:\Users\ignac\.nuget\packages\communitytoolkit.mvvm\8.2.2\lib\net6.0\CommunityToolkit.Mvvm.dll
 C:\Users\ignac\.nuget\packages\dialoghost.avalonia\0.7.7\lib\netstandard2.0\DialogHost.Avalonia.dll
-C:\Users\ignac\.nuget\packages\harfbuzzsharp\7.3.0\lib\net6.0\HarfBuzzSharp.dll
+C:\Users\ignac\.nuget\packages\harfbuzzsharp\7.3.0.2\lib\net6.0\HarfBuzzSharp.dll
 C:\Users\ignac\.nuget\packages\markdown.avalonia.tight\11.0.2\lib\net6.0\Markdown.Avalonia.dll
 C:\Users\ignac\.nuget\packages\microcom.runtime\0.11.0\lib\net5.0\MicroCom.Runtime.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.7\ref\net8.0\Microsoft.CSharp.dll
@@ -31,7 +32,7 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.7\ref\net8.0\Microso
 C:\Users\ignac\.nuget\packages\messagebox.avalonia\3.1.6\lib\netstandard2.0\MsBox.Avalonia.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.7\ref\net8.0\mscorlib.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.7\ref\net8.0\netstandard.dll
-C:\Users\ignac\.nuget\packages\skiasharp\2.88.7\lib\net6.0\SkiaSharp.dll
+C:\Users\ignac\.nuget\packages\skiasharp\2.88.8\lib\net6.0\SkiaSharp.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.7\ref\net8.0\System.AppContext.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.7\ref\net8.0\System.Buffers.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.7\ref\net8.0\System.Collections.Concurrent.dll
@@ -189,5 +190,5 @@ C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.7\ref\net8.0\System.
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.7\ref\net8.0\System.Xml.XmlSerializer.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.7\ref\net8.0\System.Xml.XPath.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.7\ref\net8.0\System.Xml.XPath.XDocument.dll
-C:\Users\ignac\.nuget\packages\tmds.dbus.protocol\0.15.0\lib\net6.0\Tmds.DBus.Protocol.dll
+C:\Users\ignac\.nuget\packages\tmds.dbus.protocol\0.16.0\lib\net6.0\Tmds.DBus.Protocol.dll
 C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.7\ref\net8.0\WindowsBase.dll
