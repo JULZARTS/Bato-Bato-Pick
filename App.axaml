@@ -1,0 +1,19 @@
+<Application xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="BatoBatoPick.App"
+             xmlns:local="using:BatoBatoPick"
+             RequestedThemeVariant="Dark">
+             <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
+
+    <Application.DataTemplates>
+        <local:ViewLocator/>
+    </Application.DataTemplates>
+  
+    <Application.Styles>
+        <FluentTheme />
+		<StyleInclude Source="/Views/Styles.axaml"/>
+		<StyleInclude Source="/Assets/Icons.axaml"/>
+
+    </Application.Styles>
+
+</Application>
