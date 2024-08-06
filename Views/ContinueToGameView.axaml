@@ -14,7 +14,7 @@
 			   FontStyle="Italic" FontWeight="Regular" Margin="0 0 19 40" 
 			   HorizontalAlignment="Right"/>
 		<StackPanel>
-			<Button Content="Continue" Width="180" FontWeight="SemiBold" Height="50" FontSize="17"
+			<Button Content="Continue" Width="160" FontWeight="SemiBold" Height="50" FontSize="17"
 					Command="{Binding ContinueToGameCommand}"/>
 		</StackPanel>
 	</StackPanel>
