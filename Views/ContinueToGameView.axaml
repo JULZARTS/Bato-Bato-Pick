@@ -1,0 +1,21 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:vm="using:BatoBatoPick.ViewModels"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:DataType="vm:ContinueToGameViewModel" 
+             x:Class="BatoBatoPick.Views.ContinueToGameView">
+
+	<StackPanel>
+		<Label Content="Bato-Bato Pick" FontSize="50" FontFamily="Monocraft"
+			   FontStyle="Italic" FontWeight="Bold" Margin="0 0 0 -15"/>
+		<Label Content="Made by Julz" FontSize="13" FontFamily="Jetbrains Mono"
+			   FontStyle="Italic" FontWeight="Regular" Margin="0 0 19 40" 
+			   HorizontalAlignment="Right"/>
+		<StackPanel>
+			<Button Content="Continue" Width="180" FontWeight="SemiBold" Height="50" FontSize="17"
+					Command="{Binding ContinueToGameCommand}"/>
+		</StackPanel>
+	</StackPanel>
+</UserControl>

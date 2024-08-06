@@ -1,0 +1,45 @@
+<Styles xmlns="https://github.com/avaloniaui"
+		xmlns:vm="clr-namespace:BatoBatoPick.ViewModels"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+
+	<Style Selector="Button">
+		<Setter Property="VerticalContentAlignment" Value="Center"/>
+		<Setter Property="HorizontalContentAlignment" Value="Center"/>
+		<Setter Property="Height" Value="50"/>
+		<Setter Property="Width" Value="100"/>
+		<Setter Property="Background" Value="#2c7fc7"/>
+		<Setter Property="Foreground" Value="White"/>
+		<Setter Property="CornerRadius" Value="5"/>
+		<Setter Property="FontFamily" Value="JetBrains Mono"/>
+	</Style>
+
+	<Style Selector="TextBox">
+		<Setter Property="VerticalContentAlignment" Value="Center"/>
+		<Setter Property="HorizontalContentAlignment" Value="Center"/>
+		<Setter Property="Height" Value="80"/>
+		<Setter Property="Width" Value="200"/>
+		<Setter Property="FontSize" Value="33"/>
+		<Setter Property="FontFamily" Value="Monocraft"/>
+		<Setter Property="CornerRadius" Value="5"/>
+		<Setter Property="IsReadOnly" Value="True"/>
+		<Setter Property="IsHitTestVisible" Value="False"/>
+	</Style>
+
+	<Style Selector="Label">
+		<Setter Property="VerticalContentAlignment" Value="Center"/>
+		<Setter Property="HorizontalContentAlignment" Value="Center"/>
+		<Setter Property="FontSize" Value="15"/>
+		<Setter Property="FontFamily" Value="Monocraft"/>
+	</Style>
+
+	<Style Selector="StackPanel">
+		<Setter Property="HorizontalAlignment" Value="Center"/>
+		<Setter Property="VerticalAlignment" Value="Center"/>
+		<Setter Property="Spacing" Value="20"/>
+	</Style>
+
+	<!-- Custom Style for MessageBox -->
+
+</Styles>

@@ -1,0 +1,90 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+			 xmlns:vm="clr-namespace:BatoBatoPick.ViewModels"
+             xmlns:v="clr-namespace:BatoBatoPick.Views"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="700" d:DesignHeight="750"
+             x:DataType="vm:Game1ViewModel" 
+             x:Class="BatoBatoPick.Views.Game1View">
+
+
+	<UserControl.Resources>
+		<v:MovesConverter x:Key="MovesConverter"/>
+	</UserControl.Resources>
+
+	<Design.DataContext>
+		<vm:Game1ViewModel/>
+	</Design.DataContext>
+	
+	<Grid RowDefinitions="10,*, *, *">
+		
+		<Button Content="←" FontWeight="Bold" VerticalContentAlignment="Center" Width="40" Height="30" Margin="10 20 0 0"
+				Command="{Binding ContinueToGameCommand}" Background="#2d2d2d" />
+
+		<StackPanel Orientation="Horizontal" Grid.Row="1">
+			<Border Background="{Binding BorderBG2}" Height="170" Width="170" CornerRadius="10">
+				<Image Source="{Binding ImageCompUri}" Stretch="Fill">
+					<Image.RenderTransform>
+						<TransformGroup>
+							<ScaleTransform ScaleY="-1" />
+						</TransformGroup>
+					</Image.RenderTransform>
+				</Image>
+			</Border>
+			
+			<StackPanel Orientation="Vertical">
+				<Button Content="Rock" Height="40" Width="90" IsHitTestVisible="False" Background="{Binding BtnBG2}" IsEnabled="{Binding IsEnabled2}"/>
+				<Button Content="Paper" Height="40" Width="90" IsHitTestVisible="False" Background="{Binding BtnBG2}" IsEnabled="{Binding IsEnabled2}"/>
+				<Button Content="Scissor" Height="40" Width="90" IsHitTestVisible="False" Background="{Binding BtnBG2}" IsEnabled="{Binding IsEnabled2}"/>
+			</StackPanel>
+		</StackPanel>
+
+		<StackPanel Grid.Row="2" Orientation="Horizontal">
+			<StackPanel Orientation="Vertical" Spacing="1">
+				<Label Content="Player" />
+				<TextBox Text="{Binding PlayerScore}"/>
+			</StackPanel>
+
+
+			<StackPanel Orientation="Vertical" Spacing="1">
+				<Label Content="Computer" FontSize="14"/>
+				<TextBox Text="{Binding CompScore}"/>
+			</StackPanel>
+
+			<StackPanel Orientation="Vertical" Margin="0 22 0 0">
+				<Button Content="Reset" Background="DimGray" Height="30" Width="50"
+						Command="{Binding PauseCommand}" >
+					<PathIcon Data="{Binding CurrentIcon}" Height="15"/>
+				</Button>
+
+				<Button Content="Reset" Background="DimGray" Height="30" Width="50"
+						Command="{Binding ResetCommand}">
+					<PathIcon Data="{StaticResource arrowclockwiseregular}" Height="15"/>
+				</Button>
+			</StackPanel>
+		</StackPanel>
+
+		<StackPanel Grid.Row="3" Orientation="Horizontal">
+
+			<ItemsControl ItemsSource="{Binding MyMoves}">
+				<ItemsControl.ItemTemplate>
+					<DataTemplate DataType="vm:MoveViewModel">
+						<StackPanel>
+							<Button Content="{Binding MyMove}"
+									Command="{Binding ExecuteMoveCommand}"
+									Background="{Binding BtnBG}"/>
+						</StackPanel>
+					</DataTemplate>
+				</ItemsControl.ItemTemplate>
+			</ItemsControl>
+
+
+			<Border Background="{Binding BorderBG}" Height="220" Width="220" CornerRadius="10">
+				<Image Source="{Binding ImageUri}" Stretch="Fill"/>
+			</Border>
+
+		</StackPanel>
+
+	</Grid>
+</UserControl>
