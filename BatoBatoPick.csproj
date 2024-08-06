@@ -7,7 +7,7 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
     <AvaloniaUseCompiledBindingsByDefault>true</AvaloniaUseCompiledBindingsByDefault>
 	<IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract> <!-- include this when publishing a code to an exe fil-->
-	<ApplicationIcon>Assets\BBP.ico</ApplicationIcon> <!-- Add this line when adding a logo, change path -->
+	<ApplicationIcon>Assets\BatoBatoPick.ico</ApplicationIcon> <!-- Add this line when adding a logo, change path -->
   </PropertyGroup>
 
   <ItemGroup>
@@ -19,8 +19,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Remove="Assets\BatoBatoPick.ico" />
     <None Remove="Assets\BatoBatoPick.png" />
-    <None Remove="Assets\BBP.ico" />
     <None Remove="Assets\Questionmark_Inverted.png" />
   </ItemGroup>
 

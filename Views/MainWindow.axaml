@@ -7,7 +7,7 @@
         mc:Ignorable="d" Width="700" Height="750" Padding="0 0 0 40"
         x:Class="BatoBatoPick.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel" 
-        Icon="/Assets/BBP.ico" WindowStartupLocation="CenterScreen"
+        Icon="/Assets/BatoBatoPick.ico" WindowStartupLocation="CenterScreen"
         Title="BatoBatoPick">
 
     <Design.DataContext>
