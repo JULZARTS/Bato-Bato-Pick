@@ -15,6 +15,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <AvaloniaXaml Remove="Ewan\**" />
+    <Compile Remove="Ewan\**" />
+    <EmbeddedResource Remove="Ewan\**" />
+    <None Remove="Ewan\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <AvaloniaXaml Remove="Assets\Icons.axaml" />
   </ItemGroup>
 
@@ -48,7 +55,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Ewan\" />
     <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
 </Project>

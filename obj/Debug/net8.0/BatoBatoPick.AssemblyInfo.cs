@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BatoBatoPick")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+90c14d0f26c5fb5d93788fc8a3b223ec67bea49a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+607cd643a0e1db7550d8dc991717d4d714c85c29")]
 [assembly: System.Reflection.AssemblyProductAttribute("BatoBatoPick")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BatoBatoPick")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
