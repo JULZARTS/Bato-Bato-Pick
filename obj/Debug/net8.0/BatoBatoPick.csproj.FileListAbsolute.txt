@@ -203,3 +203,4 @@ C:\Users\ignac\c#\Avalonia\BatoBatoPick\obj\Debug\net8.0\refint\Avalonia\BatoBat
 C:\Users\ignac\c#\Avalonia\BatoBatoPick\obj\Debug\net8.0\BatoBato.6F8F4377.Up2Date
 C:\Users\ignac\c#\Avalonia\BatoBatoPick\obj\Debug\net8.0\BatoBatoPick.genruntimeconfig.cache
 C:\Users\ignac\c#\Avalonia\BatoBatoPick\obj\Debug\net8.0\ref\BatoBatoPick.dll
+C:\Users\ignac\c#\Avalonia\BatoBatoPick\obj\Debug\net8.0\BatoBatoPick.sourcelink.json

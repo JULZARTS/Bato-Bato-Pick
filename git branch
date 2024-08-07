@@ -1,0 +1,54 @@
+[33mcommit 63fd1258ffaf155fa788cf93872a7598be848a11[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: JULZARTS <ignacio221julius@gmail.com>
+Date:   Wed Aug 7 00:39:03 2024 +0800
+
+    Added custom logo and remade the starting screen
+
+[33mcommit 050ca752ada745f5d67a187be11b651ef42ff8a4[m
+Merge: f8a7b02 44404eb
+Author: JULZARTS <ignacio221julius@gmail.com>
+Date:   Tue Aug 6 23:02:57 2024 +0800
+
+    Update .gitignore to exclude bin and obj directories
+
+[33mcommit f8a7b02d7c59d0b49225fb4af574f216da449846[m
+Author: JULZARTS <ignacio221julius@gmail.com>
+Date:   Tue Aug 6 22:59:50 2024 +0800
+
+    idk
+
+[33mcommit 44404ebbb3b69b2805ff7840a322f2a645ff7013[m[33m ([m[1;32mAdd_features[m[33m)[m
+Author: JULZARTS <ignacio221julius@gmail.com>
+Date:   Tue Aug 6 22:54:31 2024 +0800
+
+    Final branch
+
+[33mcommit 8203afada4e58ca63850167ea443831b6d72db6c[m
+Author: JULZARTS <ignacio221julius@gmail.com>
+Date:   Tue Aug 6 22:24:54 2024 +0800
+
+    Added an exe logo
+
+[33mcommit 2287af48a7bc3ed0e27dad48c162bf6a09336081[m
+Author: JULZARTS <ignacio221julius@gmail.com>
+Date:   Tue Aug 6 16:53:39 2024 +0800
+
+    Added a background image on starting screen
+
+[33mcommit 7eb780171e1b525b8994aff155db8744646fa916[m
+Author: JULZARTS <ignacio221julius@gmail.com>
+Date:   Tue Aug 6 15:01:43 2024 +0800
+
+    Went back to dark theme
+
+[33mcommit 80f404342fc855429df3fe6aaf00420727d17347[m
+Author: JULZARTS <ignacio221julius@gmail.com>
+Date:   Tue Aug 6 14:56:47 2024 +0800
+
+    Small alterations on Continue button
+
+[33mcommit 66ccb276b0297d5a533e6c931d618818fe7c4afe[m
+Author: JULZARTS <ignacio221julius@gmail.com>
+Date:   Tue Aug 6 14:53:19 2024 +0800
+
+    First Commit
